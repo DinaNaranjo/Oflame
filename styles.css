@@ -1,0 +1,132 @@
+/* styles.css */
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.navbar-brand img {
+    width: 90px;
+    height: auto;
+    margin-right: -15px;
+    vertical-align: middle;
+}
+
+.navbar-brand span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post h2 {
+    margin-top: 20px;
+}
+
+.blog-post .rating {
+    margin-bottom: 10px;
+}
+
+.blog-post .rating i {
+    color: gold;
+}
+
+.blog-post .categories {
+    margin-bottom: 10px;
+}
+
+.blog-post .categories a {
+    margin-right: 10px;
+}
+
+.blog-post .tags {
+    margin-bottom: 20px;
+}
+
+.blog-post .tags a {
+    margin-right: 10px;
+}
+
+.blog-post .read-more {
+    margin-top: 20px;
+}
+
+/* Estilos para la sección de blogs */
+#blog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#blog .container {
+    max-width: 1200px;
+}
+
+#blog h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#blog .input-group {
+    margin-bottom: 30px;
+}
+
+#blog .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#blog .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#blog .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#blog .card-body {
+    padding: 20px;
+}
+
+#blog .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#blog .card-text {
+    margin-bottom: 20px;
+}
+
+#blog .rating {
+    margin-bottom: 10px;
+}
+
+#blog .categories {
+    margin-bottom: 10px;
+}
+
+#blog .categories a {
+    margin-right: 10px;
+}
+
+#blog .tags {
+    margin-bottom: 20px;
+}
+
+#blog .tags a {
+    margin-right: 10px;
+}
+
+#blog .read-more {
+    margin-top: 20px;
+}

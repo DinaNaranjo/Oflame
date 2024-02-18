@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #ffffff; /* Blanco */
+}
+
+/* Color de texto de la barra de navegación */
+.navbar .navbar-nav .nav-link {
+    color: #6C5B7B; /* Púrpura claro */
+}
+
+/* Estilos de la barra de navegación */
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+    margin-right: -15px;
+    vertical-align: middle;
+}
+.navbar-brand span {
+    font-size: 2rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* Estilos de las secciones */
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.bg-light {
+    background-color: #ffffff !important; /* Blanco */
+}
+.bg-dark {
+    background-color: #ffffff !important; /* Blanco */
+}
+.text-light {
+    color: #ffffff !important;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+.rounded {
+    border-radius: 0.25rem !important;
+}
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Estilos de los elementos de texto */
+.display-4 {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+}
+.lead {
+    font-size: 1.25rem !important;
+    font-weight: normal !important;
+}
+
+/* Estilos de los botones */
+.btn-primary {
+    background-color: #F9E4C9 !important; /* Amarillo pastel */
+    border-color: #F9E4C9 !important; /* Amarillo pastel */
+}
+.btn-primary:hover {
+    background-color: #F6E3CE !important; /* Rosa claro */
+    border-color: #F6E3CE !important; /* Rosa claro */
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5) !important;
+}
+
+/* Estilos de los elementos de lista */
+.list-group-item {
+    border-color: #dee2e6 !important;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+.list-group-item:first-child {
+    border-top-right-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important;
+}
+
+/* Estilos de las cards */
+.card {
+    background: linear-gradient(to bottom right, #ffffff, #ffad33);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+#stats {
+    padding: 20px;
+    background-color: #f0f0f0; /* Cambia el color de fondo a gris claro */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#stats h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #343a40;
+}
+
+#logo {
+    transition: transform 0.3s ease-in-out;
+}
+
+#logo:hover {
+    animation: arder 0.3s ease-in-out infinite alternate;
+}
+
+@keyframes arder {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
